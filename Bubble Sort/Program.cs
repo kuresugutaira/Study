@@ -4,6 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/// <summary>
+/// 参考にしたサイトのURL
+/// https://www.codereading.com/algo_and_ds/algo/bubble_sort.html
+/// </summary>
 namespace Bubble_Sort
 {
     class Program
