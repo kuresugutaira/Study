@@ -14,8 +14,8 @@ namespace Bubble_Sort
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("並び替えたい値を空白区切りで入力して下さい。");
-            Console.WriteLine("(例)1 4 5 3 2");
+            Console.WriteLine("並び替えたい整数の値を空白区切りで入力して下さい。");
+            Console.WriteLine("(例)-1 4 5 -3 2");
             string[] strs = Console.ReadLine().Split(' ');
             var nums = new List<int>();
             foreach(string str in strs)
