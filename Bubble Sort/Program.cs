@@ -5,9 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 
 /// <summary>
-/// 参考にしたサイトのURL
+/// バブルソートについて
+/// 参考URL
 /// https://www.codereading.com/algo_and_ds/algo/bubble_sort.html
 /// </summary>
+
 namespace Bubble_Sort
 {
     class Program
@@ -25,12 +27,12 @@ namespace Bubble_Sort
 
 
             //ここからソート
-            
-            for(int i=0; i < nums.Count - 1; i++)
+
+            for (int i = 0; i < nums.Count - 1; i++)
             {
-                for(int j=0;j < nums.Count - 1 - i; j++)
+                for (int j = 0; j < nums.Count - 1 - i; j++)
                 {
-                    if(nums[j] > nums[j + 1])
+                    if (nums[j] > nums[j + 1])
                     {
                         //隣接する2つを入れ替える
                         int tmp = nums[j];
@@ -40,8 +42,8 @@ namespace Bubble_Sort
                 }
             }
             
-
             //2つめのループを上から比較していくことも出来る
+
             /*
             for (int i = 0; i < nums.Count - 1; i++)
             {
