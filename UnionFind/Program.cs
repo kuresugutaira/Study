@@ -4,6 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/// <summary>
+/// UnionFind(データ構造)について
+/// 参考URL
+/// https://webbibouroku.com/Blog/Article/cs-union-find
+/// </summary>
+
 namespace UnionFind
 {
     class Program
